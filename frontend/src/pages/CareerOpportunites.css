@@ -1,0 +1,174 @@
+/* src/pages/CareerOpportunities.css */
+
+/* Container for the entire Career Opportunities page */
+.career-opportunities-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .career-opportunities-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2a3d66;
+  }
+  
+  .career-opportunities-container h2 {
+    font-size: 2rem;
+    color: #3a4f7f;
+    margin-bottom: 15px;
+  }
+  
+  .career-opportunities-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Form and input styles */
+  form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  form input:focus {
+    border-color: #3a4f7f;
+    box-shadow: 0 0 5px rgba(58, 79, 127, 0.3);
+  }
+  
+  form button {
+    background-color: #3a4f7f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #2a3d66;
+  }
+  
+  /* Section for displaying the Pilot Code */
+  .career-opportunities-container h3 {
+    font-size: 1.5rem;
+    color: #3a4f7f;
+    margin-top: 20px;
+  }
+  
+  .career-opportunities-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .career-opportunities-container .vacancies-list {
+    margin-top: 20px;
+  }
+  
+  .career-opportunities-container ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .career-opportunities-container ul li {
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .career-opportunities-container ul li button {
+    background-color: #3a4f7f;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .career-opportunities-container ul li button:hover {
+    background-color: #2a3d66;
+  }
+  
+  /* Buttons for Registering and Showing Global Opportunities */
+  button {
+    background-color: #3a4f7f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2a3d66;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .career-opportunities-container {
+      padding: 15px;
+    }
+  
+    .career-opportunities-container h1 {
+      font-size: 2rem;
+    }
+  
+    .career-opportunities-container h2 {
+      font-size: 1.8rem;
+    }
+  
+    form div {
+      margin-bottom: 12px;
+    }
+  
+    form input,
+    form button {
+      font-size: 1rem;
+    }
+  
+    .career-opportunities-container ul li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .career-opportunities-container ul li button {
+      margin-top: 10px;
+    }
+  }
+  

@@ -1,0 +1,135 @@
+/* FreelanceProjects.css */
+
+/* General Container */
+.freelance-projects-container {
+    font-family: 'Arial', sans-serif;
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+  
+  /* Heading Styling */
+  .freelance-projects-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 40px;
+  }
+  
+  /* Project List Section */
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Project Card Styling */
+  .project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Project Card Title */
+  .project-card h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Project Card Description */
+  .project-card p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Project Card Budget & Category */
+  .project-card p strong {
+    font-weight: bold;
+  }
+  
+  /* Apply Button */
+  .cta-btn {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .cta-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  /* Login/Register Link Message */
+  .project-card div {
+    margin-top: 15px;
+  }
+  
+  .project-card div p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .project-card div a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-card div a:hover {
+    text-decoration: underline;
+  }
+  
+  /* No Projects Available Message */
+  .projects-list p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .freelance-projects-container {
+      padding: 20px;
+    }
+  
+    .freelance-projects-container h1 {
+      font-size: 2rem;
+    }
+  
+    .project-card {
+      padding: 15px;
+    }
+  
+    .project-card h2 {
+      font-size: 1.5rem;
+    }
+  
+    .cta-btn {
+      font-size: 1rem;
+      padding: 10px 16px;
+    }
+  }
+  

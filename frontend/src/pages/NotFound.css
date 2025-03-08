@@ -1,0 +1,28 @@
+/* src/pages/NotFound.css */
+.not-found {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .not-found h1 {
+    font-size: 100px;
+    color: #e74c3c;
+  }
+  
+  .not-found p {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  .not-found .btn {
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .not-found .btn:hover {
+    background-color: #2980b9;
+  }
+  

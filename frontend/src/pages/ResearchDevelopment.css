@@ -1,0 +1,68 @@
+/* src/pages/ResearchDevelopment.css */
+
+/* Container for the entire Research & Development page */
+.research-development-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading Styles */
+  .research-development-container h1 {
+    font-size: 2.5rem;
+    color: #3a4f7f;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .research-development-container p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* List of Research Topics */
+  .research-development-container ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .research-development-container ul li {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .research-development-container ul li:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .research-development-container {
+      padding: 15px;
+    }
+  
+    .research-development-container h1 {
+      font-size: 2rem;
+    }
+  
+    .research-development-container p {
+      font-size: 1rem;
+    }
+  
+    .research-development-container ul li {
+      font-size: 1rem;
+    }
+  }
+  

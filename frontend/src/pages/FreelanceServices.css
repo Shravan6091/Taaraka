@@ -1,0 +1,96 @@
+/* FreelanceServices.css */
+
+/* General Page Styling */
+.freelance-services-container {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Title Section */
+  .freelance-services-container h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 40px;
+  }
+  
+  /* Freelance Options Container */
+  .freelance-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Freelance Option Box Styling */
+  .freelance-option {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .freelance-option:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Freelance Option Titles */
+  .freelance-option h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Freelance Option Paragraph */
+  .freelance-option p {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* CTA Button Styling */
+  .cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .freelance-services-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .freelance-option h2 {
+      font-size: 1.75rem;
+    }
+  
+    .freelance-option p {
+      font-size: 1rem;
+    }
+  
+    .cta-btn {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  }
+  

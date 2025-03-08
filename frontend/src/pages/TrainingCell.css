@@ -1,0 +1,212 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Main Container */
+  .training-cell-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Left Sidebar (Main Sections) */
+  .training-cell-sidebar {
+    flex: 0 0 250px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  button {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Main Content Section */
+  .training-cell-content {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Cart Section (Right Sidebar) */
+  .cart-section {
+    flex: 0 0 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .cart-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-section ul li {
+    padding: 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  .cart-section button {
+    background-color: #17a2b8;
+    font-size: 1.2rem;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .cart-section button:hover {
+    background-color: #138496;
+  }
+  
+  /* Login/Registration Form */
+  .login-register-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .login-register-section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .login-register-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-register-section button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-register-section button:hover {
+    background-color: #218838;
+  }
+  
+  .login-register-section p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+  
+  /* Payment Section */
+  .payment-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .payment-section button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .payment-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-section .payment-methods {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-section .payment-methods button {
+    flex: 1;
+    margin: 5px;
+    font-size: 1rem;
+  }
+  
+  .payment-section .payment-methods button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .training-cell-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .training-cell-sidebar {
+      margin-right: 0;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .cart-section {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .training-cell-content {
+      width: 100%;
+    }
+  }
+  

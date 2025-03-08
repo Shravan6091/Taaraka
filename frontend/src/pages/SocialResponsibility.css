@@ -1,0 +1,68 @@
+/* SocialResponsibility.css */
+.social-responsibility-container {
+    background-color: #f4f4f4;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .social-responsibility-container h1 {
+    font-size: 36px;
+    color: #2a3d45;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .social-responsibility-container p {
+    font-size: 18px;
+    color: #5a5a5a;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .social-responsibility-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #4a4a4a;
+  }
+  
+  .social-responsibility-container ul li {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .social-responsibility-container ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+    font-size: 22px;
+    top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .social-responsibility-container {
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    .social-responsibility-container h1 {
+      font-size: 28px;
+    }
+  
+    .social-responsibility-container p {
+      font-size: 16px;
+    }
+  
+    .social-responsibility-container ul li {
+      font-size: 16px;
+    }
+  }
+  
